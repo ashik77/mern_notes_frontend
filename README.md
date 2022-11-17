@@ -1,4 +1,6 @@
-https://notes-dd00.onrender.com/
+Live site: https://notes-dd00.onrender.com/
+
+Backend code repository: https://github.com/ashik77/mern_notes_api
 
 1.A web app for an automobile repair shop to replace their traditional sticky notes with a note app .
 
