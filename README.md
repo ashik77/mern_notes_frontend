@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+https://notes-dd00.onrender.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.A web app for an automobile repair shop to replace their traditional sticky notes with a note app .
 
-## Available Scripts
+2.Detailed requirements are shown as below
 
-In the project directory, you can run:
+In Short, only admin and manager are allowed to create account for employee and update credentials and they can restrict access of any employee they want,
+they can create, update, delete and assign notes to any employee they want as well as change status of specific note i.e. open or completed. They can also view user lists.
 
-### `npm start`
+Whereas employee can just view notes which are assigned to them only, they can mark the status of the notes as completed and assign notes to other users. But they can not delete any notes, just update ability is given. Also they can not view user lists. Just notes they have access to with limited functionality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dummy Password to access:
+~Admin:
+  username: admin
+  password: 123456
+  
+ ~Employee: 
+  username: test
+  password: 123456
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Requirements for Note app
+ *Replace current sticky note system
+ *Add a public facing page with basic contact info
+ *Add an employee login to the notes app
+ *Provide a welcome page after login
+ *Provide easy navigation
+ *Display current user and assigned role
+ *Provide a logout option
+ *Require users to login at least once per week
+ *Provide a way to remove employee access asap if needed
+ *Notes are assigned to specific employees
+ *Notes have a ticket #, title, note body, created & updated dates
+ *Notes are either OPEN or COMPLETED
+ *Users can be Employees, Managers, or Admins
+ *Notes can only be deleted by Managers or Admins
+ *Anyone can create a note (when customer checks-in)
+ *Employees can only view and edit their assigned notes
+ *Managers and Admins can view, edit, and delete all notes
+ *Only Managers and Admins can access User Settings
+ *Only Managers and Admins can create new users
+ *Desktop mode is most important but should be available in mobile
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
