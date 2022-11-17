@@ -17,7 +17,7 @@ const Welcome = () => {
       <h1>Welcome {username}!</h1>
 
       <p>
-        <Link to="/dash/notes">View techNotes</Link>
+        <Link to="/dash/notes">View Notes</Link>
       </p>
 
       <p>
